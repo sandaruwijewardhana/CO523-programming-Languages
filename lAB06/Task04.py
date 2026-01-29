@@ -35,10 +35,8 @@ def main():
                 print(f"Result: {num1} / {num2} = {result}")
 
         except ZeroDivisionError:
-            # Handling division by zero [cite: 241, 292]
             print("Error: Cannot divide by zero.")
         except ValueError:
-            # Handling invalid input (e.g., entering letters instead of numbers) [cite: 241, 292]
             print("Error: Invalid input. Please enter numeric values.")
 
 if __name__ == "__main__":
