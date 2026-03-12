@@ -14,4 +14,3 @@ total_sum = reduce(lambda x, y: x + y, squares)
 
 # Expected output: 4^2 + 6^2 + 8^2 = 16 + 36 + 64 = 116
 print(f"Result: {total_sum}")
-# Here output would be 120 since in the lab sheet it missed 2^2 to add to the final output
