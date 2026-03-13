@@ -1,0 +1,22 @@
+int age;
+age = 18;
+
+if (age == 18) {
+    int status;
+    status = 1;
+    printf(status);
+} else {
+    int status;
+    status = 0;
+    printf(status);
+}
+
+if (age > 20) {
+    int x;
+    x = 100;
+    printf(x);
+} else {
+    int y;
+    y = 200;
+    printf(y);
+}

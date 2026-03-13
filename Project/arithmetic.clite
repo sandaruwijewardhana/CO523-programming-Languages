@@ -1,0 +1,13 @@
+int x;
+int y;
+x = 10;
+y = 20;
+int z;
+z = x + y * 2;
+printf(z);
+
+float a;
+a = 10.5;
+float b;
+b = a / 2.0;
+printf(b);
